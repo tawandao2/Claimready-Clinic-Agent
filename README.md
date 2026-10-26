@@ -4,7 +4,7 @@ An AI assistant that checks the insurance paperwork at two points in a clinic's 
 
 **Status: in progress.** Everything below runs and is tested, except the Gemini writer, which I am still evaluating. The app works today with a writer that needs no AI.
 
-**[Live demo](ADD-YOUR-STREAMLIT-LINK-HERE)**
+**[Live demo](https://claimready-clinic-agent-fvgjuqzymu5xefxdjbaqbd.streamlit.app/)**
 
 ![ClaimReady demo](assets/claimready_demo.gif)
 
