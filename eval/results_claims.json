@@ -1,0 +1,98 @@
+{
+  "clean_run": {
+    "claims": 20731,
+    "error_flags": 0,
+    "warning_flags": 3
+  },
+  "planted": {
+    "total_mismatch | off by 0.5": {
+      "planted": 100,
+      "caught": 100
+    },
+    "total_mismatch | off by 5": {
+      "planted": 100,
+      "caught": 100
+    },
+    "total_mismatch | off by 50": {
+      "planted": 100,
+      "caught": 100
+    },
+    "overpayment | over by 0.5": {
+      "planted": 100,
+      "caught": 100
+    },
+    "overpayment | over by 5": {
+      "planted": 100,
+      "caught": 100
+    },
+    "overpayment | over by 50": {
+      "planted": 100,
+      "caught": 100
+    },
+    "late_filing | 366 days late": {
+      "planted": 100,
+      "caught": 100
+    },
+    "late_filing | 400 days late": {
+      "planted": 100,
+      "caught": 100
+    },
+    "late_filing | 800 days late": {
+      "planted": 100,
+      "caught": 100
+    },
+    "visit_outside_period | period moved 3 days": {
+      "planted": 100,
+      "caught": 100
+    },
+    "visit_outside_period | period moved 30 days": {
+      "planted": 100,
+      "caught": 100
+    },
+    "visit_outside_period | period moved 400 days": {
+      "planted": 100,
+      "caught": 100
+    },
+    "diagnosis_not_in_chart | unknown diagnosis": {
+      "planted": 300,
+      "caught": 300
+    },
+    "visit_not_in_chart | unknown visit": {
+      "planted": 300,
+      "caught": 300
+    },
+    "duplicate_claim | exact copy": {
+      "planted": 300,
+      "caught": 300
+    },
+    "payer_changed | payer switched": {
+      "planted": 52,
+      "caught": 52
+    }
+  },
+  "negative_controls": {
+    "total_mismatch | off by 0.004": {
+      "tried": 100,
+      "wrongly_flagged": 0
+    },
+    "overpayment | over by 0.005": {
+      "tried": 100,
+      "wrongly_flagged": 0
+    },
+    "late_filing | 365 days late": {
+      "tried": 100,
+      "wrongly_flagged": 0
+    },
+    "visit_outside_period | period moved 1 days": {
+      "tried": 100,
+      "wrongly_flagged": 0
+    }
+  },
+  "totals": {
+    "planted": 2152,
+    "caught": 2152,
+    "recall": 1.0,
+    "new_flags_on_untouched_claims": 0,
+    "new_flag_rules": {}
+  }
+}

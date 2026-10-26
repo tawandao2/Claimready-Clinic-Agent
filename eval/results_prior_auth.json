@@ -1,0 +1,120 @@
+{
+  "order_date": "2026-10-25",
+  "patients": 82,
+  "orders": {
+    "CGM": {
+      "title": "Continuous glucose monitor",
+      "decisions": {
+        "missing": 58,
+        "ready": 24
+      },
+      "criteria": {
+        "dx": {
+          "met": 82
+        },
+        "insulin": {
+          "not_met": 57,
+          "met": 25
+        },
+        "visit": {
+          "met": 72,
+          "not_met": 10
+        }
+      }
+    },
+    "DXA": {
+      "title": "Bone density scan (DXA)",
+      "decisions": {
+        "review": 33,
+        "missing": 41,
+        "ready": 8
+      },
+      "criteria": {
+        "frequency": {
+          "met": 81,
+          "not_met": 1
+        },
+        "qualifying": {
+          "needs_review": 33,
+          "not_met": 40,
+          "met": 9
+        }
+      }
+    },
+    "GLP1 (centene)": {
+      "title": "Semaglutide for type 2 diabetes",
+      "decisions": {
+        "missing": 82
+      },
+      "criteria": {
+        "age": {
+          "met": 82
+        },
+        "dx": {
+          "met": 82
+        },
+        "metformin": {
+          "not_met": 75,
+          "needs_review": 7
+        },
+        "sglt2": {
+          "not_met": 82
+        },
+        "contra": {
+          "met": 82
+        },
+        "dose": {
+          "met": 82
+        }
+      }
+    },
+    "GLP1 (metformin_first)": {
+      "title": "Semaglutide for type 2 diabetes",
+      "decisions": {
+        "missing": 75,
+        "review": 7
+      },
+      "criteria": {
+        "age": {
+          "met": 82
+        },
+        "dx": {
+          "met": 82
+        },
+        "metformin": {
+          "not_met": 75,
+          "needs_review": 7
+        },
+        "contra": {
+          "met": 82
+        },
+        "dose": {
+          "met": 82
+        }
+      }
+    },
+    "MRI_LUMBAR": {
+      "title": "Lumbar spine MRI",
+      "decisions": {
+        "review": 10,
+        "missing": 65,
+        "ready": 7
+      },
+      "criteria": {
+        "pain": {
+          "not_met": 62,
+          "met": 20
+        },
+        "therapy": {
+          "not_met": 77,
+          "met": 5
+        },
+        "red_flag": {
+          "needs_review": 11,
+          "not_met": 69,
+          "met": 2
+        }
+      }
+    }
+  }
+}

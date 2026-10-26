@@ -1,0 +1,36 @@
+{
+  "valid_notes": 522,
+  "valid_notes_passed": 522,
+  "kinds": {
+    "changed a number": {
+      "caught": 1584,
+      "tried": 1618
+    },
+    "invented finding id": {
+      "caught": 2728,
+      "tried": 2728
+    },
+    "promised an outcome": {
+      "caught": 2728,
+      "tried": 2728
+    },
+    "told someone to submit": {
+      "caught": 2728,
+      "tried": 2728
+    },
+    "invented extra claim": {
+      "caught": 2728,
+      "tried": 2728
+    },
+    "cited the wrong finding": {
+      "caught": 2646,
+      "tried": 2728
+    },
+    "dropped a required finding": {
+      "caught": 1910,
+      "tried": 1910
+    }
+  },
+  "total_caught": 17052,
+  "total_tried": 17168
+}
