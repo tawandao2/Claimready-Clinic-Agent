@@ -97,8 +97,10 @@ t1, t2, t3, t4 = st.tabs(["Before the order", "Before the bill", "Scorecard", "A
 # ----------------------------------------------------------------- tab 1: prior authorization
 with t1:
     P = patients()
+    st.caption("The demo opens on patient 2503f21b, whose glucose monitor request is ready. Pick any other patient or order to see missing criteria. To search the list, clear the box first, then type.")
+    start = P.index[P["id"].str.startswith("2503f21b")]
     c1, c2, c3 = st.columns([2, 2, 2])
-    label = c1.selectbox("Patient", P["label"])
+    label = c1.selectbox("Patient", P["label"], index=int(start[0]) if len(start) else 0)
     pid = P.loc[P["label"] == label, "id"].iloc[0]
     kind = c2.selectbox("Order", list(pa.POLICIES), format_func=lambda k: pa.POLICIES[k]["order"])
     variant = None
